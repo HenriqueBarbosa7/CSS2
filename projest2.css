@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-left {
+    display: inline-block;
+
+}
+
+.section-right {
+    display: inline-block;
+
+}
+
+.link-header {
+    margin-right: 23px;
+    width: 120px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    background: #655AE1;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.logo-image {
+    margin-left: 125px;
+}
+
+.button-two  {
+    width: 239px;
+height: 64px;
+border-radius: 20.5px;
+background: #ADFF00;
+font-size: 28px;
+font-weight: 700;
+line-height: 34px;
+color: #000000;
+border: none;
+cursor: pointer;
+
+
+}
+
+
+
+header {
+    margin: 44px 0px 144px 76px;
+}
+
+h1 {
+
+    height: 122px;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+
+}
+
+h2 {
+
+    height: 71px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #848484;
+    margin: 32px 0px 65px 0px;
+}  
+
+.link-header:hover {
+   opacity: .4;
+} 
+.link-header:active {
+    opacity: .2;
+}
+
+.button-header:hover {
+    opacity: .4;
+}
+ 
+.button-header:active {
+    opacity: .2;
+}
+
+.button-two:hover {
+    opacity: .4;
+}
+ 
+.button-two:active {
+    opacity: .1;
+}
+ 
+@media screen and (max-width:990px) {
+
+header {
+    display: none;
+}
+
+h1 {
+    font-size: 63px;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+    display: none;
+}
+
+.section-left {
+    height: 50vh;
+    width: 100vw;
+    
+}
+
+.section-right {
+    display: block;
+    height: 50vh;
+    width: 100vw;
+}
+
+.logo-image {
+    width: 90%;
+    margin: 149px 22px 24px 14px;
+}
+
+
+.button-two {
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+}

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.section-left {
+    display: inline-block;
+    width:60vw ;
+    height: 100vh;
+    background: rgba(23, 45, 45, .2);
+}
+
+.section-right {
+    display: inline-block;
+    width: 40vw;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.ney-logo {
+    width: 550px;
+    height: 500px;
+    margin-left: 58px;
+}
+
+.image-one {
+    width: 300px;
+    height: 250px;
+    margin-left: 67px;
+}
+
+
+.link-header {
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 55px;
+    font-size: 47px;
+    color: #FF05560;
+}
+
+p {
+    margin-left: 58px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    width: -25px;
+
+}
+
+header {
+    font-size: 35px;
+    margin: 45px 0 57px 45px;
+
+}
+
+.link-header:hover {
+    opacity: .4;
+}
+
+.link-header:active {
+    opacity: .2;
+}
+

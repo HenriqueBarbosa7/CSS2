@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-left {
+    display: inline-block;
+
+}
+
+.section-right {
+    display: inline-block;
+
+}
+
+.links-header {
+    margin-right: 32px;
+    width: 83px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    background: linear-gradient(0deg, #4CB538, #4CB538),
+        linear-gradient(0deg, #6FBF44, #6FBF44);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.image-logo {
+    width: 595.18px;
+    height: 500px;
+    margin: 0 84px 0 121px;
+
+}
+
+.button-two {
+    width: 112px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+header {
+    margin: 48px 0 177px 42px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4B505A;
+    margin: 47px 0 45px 0;
+}
+
+.button-header:active {
+    opacity: .4;
+}
+
+.button-two:hover {
+    opacity: 03;
+}
+
+@media screen and (max-width:1390px) {
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        width: 278px;
+        height: 60px;
+        margin: 124px 55px 0 57px;
+
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        color: #4B505A;
+        text-align: center;
+        margin: 29px 43px 26px 43px;
+}
+
+    .section-left {
+        width: 100vw;
+        height: 50%;
+        position: fixed;
+        top: 384px;
+        left: -115px;
+    }
+
+    .section-right {
+        display: block;
+        width: 100vw;
+        height: 50%;
+    }
+
+    .image-logo {
+        width: 90%;
+        padding: 59px 39px 0 39px;
+    } 
+
+    .button-two {
+
+        margin: 0 auto;
+        display: block;
+   }
+
+}

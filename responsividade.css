@@ -1,0 +1,16 @@
+/*  RESPONSIVIDADE 
+
+All: para todos os dispositivos.
+braille: para disppositivos tateis.
+embossed: para dispositivos que emprimem em braile
+handheld: para dispositivos portatais, geralmente com telas pequenas e limmitadas.
+Print: para impressão em papel.
+Projection: para apresentações como PPS.
+Screen: para munitores ou dispositivos com tela colorida e resolução  adequada.
+speech: para sintetizadores de voz. A CSS 2 tem uma especificação chamada aural, onde podemos formatar a voz dos sintetizadores.
+
+Orientação
+
+Portrait -> altura maior que largura 
+Landscape -> largura maior que altura
+*/
